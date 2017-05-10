@@ -24,6 +24,8 @@
     - [Memory Safety](./concurrency/memory_safety.md)
 - [Language Constructs](./language_constructs.md)
 - [Breaking The Rules](./breaking_the_rules.md)
+- [Tooling](./tooling.md)
+    - [Development](./tooling/development.md)
 - [Conclusion](./conclusion.md)
 
 ---
