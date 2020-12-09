@@ -8,6 +8,7 @@
     - [Runs Blazingly Fast](./background/runs_blazingly_fast.md)
     - [Prevents Almost All Crashes](./background/prevents_almost_all_crashes.md)
     - [Eliminates Data Races](./background/eliminates_data_races.md)
+    - [Problem](./background/problem.md)
 - [Who's Using Rust](./whos_using_rust.md)
 - [Ownership](./ownership.md)
     - [Transferring Ownership](./ownership/transferring_ownership.md)
