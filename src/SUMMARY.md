@@ -34,6 +34,7 @@
   - [Traits](./language_constructs/traits.md)
   - [Algebraic Data Types](./language_constructs/algebraic_data_types.md)
   - [No Hidden States](./language_constructs/no_hidden_states.md)
+  - [Testing and Documentation](./language_constructs/testing_and_documentation.md)
 - [Breaking The Rules](./breaking_the_rules.md)
 - [Tooling](./tooling.md)
     - [Development](./tooling/development.md)
