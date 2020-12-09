@@ -1,20 +1,14 @@
 # Who's Using Rust
 
-## Rust is using Rust
+### Rust is using Rust
 
-Makeup of code in the Rust repository (10 May 2017):
+Makeup of code in the Rust repository (12 Dec 2020):
 
-* 95.5% Rust
-* 1.4% C (bundled libraries)
-* 1.2% shell scripts
-* 1.9% other
+* Rust 94.4%
+* HTML 3.3%
+* Python 0.5%
+* JavaScript 0.4%
+* Makefile 0.3%
+* Shell 0.3%
+* Other 0.8%
 
-## Servo
-
-Parallel layout engine written in Rust:
-
-![Servo screenshot](https://servo.org/screenshot.png)
-
-![Firefox OS Acid test](https://pbs.twimg.com/media/B34-C_MCYAESU8t.jpg)
-
-[Friends of Rust](https://www.rust-lang.org/en-US/friends.html)
