@@ -6,6 +6,8 @@ There is only every *one* owner of data!
 
 ## Problem
 
+A common mistake in C:
+
 ```c++
 int main() {
     int *slot = malloc(sizeof(int));
@@ -27,7 +29,7 @@ pointer being freed was not allocated
 zsh: abort      ./a.out
 ```
 
-## Solution
+Rust's way of representing this:
 
 ```rust
 fn main() {
