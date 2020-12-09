@@ -4,8 +4,8 @@
 
 ```rust
 struct Point {
-    x: int,
-    y: int,
+    x: usize,
+    y: usize,
 }
 
 fn main() {

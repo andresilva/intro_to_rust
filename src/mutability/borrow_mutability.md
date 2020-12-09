@@ -4,8 +4,8 @@ Borrowed pointers may coerce:
 
 ```rust
 let a = &mut 1;
-let b: &int = a; // ok
-let c: &mut int = b; // error!
+let b: &usize = a; // ok
+let c: &mut usize = b; // error!
 ```
 
 Values can be *frozen* by borrowing

@@ -5,7 +5,7 @@ Mutability propagates deeply into owned types
 ```rust
 struct A { b: B }
 
-struct B { c: int }
+struct B { c: usize }
 
 fn main() {
     let mut a = A { b: B { c: 2 } };

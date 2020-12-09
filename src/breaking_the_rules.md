@@ -9,7 +9,7 @@ fn main() {
     // Turn off some compiler checks,
     // "I know what I'm doing"
     unsafe {
-        let b = &a as *const int as *mut int;
+        let b = &a as *const i32 as *mut i32;
         *b = 4;
     }
 
@@ -29,8 +29,8 @@ unsafe fn transmute<T, U>(t: T) -> U {
 
 ```rust
 // Invalid promotion to a mutable pointer
-let a: &int = &3;
-let b: &mut int = unsafe { transmute(a) };
+let a: &usize = &3;
+let b: &mut usize = unsafe { std::mem::transmute(a) };
 ```
 
 ## Foreign Function Interface (FFI)
