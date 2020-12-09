@@ -1,5 +1,17 @@
 # Language Constructs
 
+## Primitives
+
+- **Booleans**: are true and false
+- **Integers**: are both signed and unsigned. u8/i8, u16/i16, u32/i32, u64/i64, and u128/i128.
+- **Floating point numbers**: f32 and f64
+- **Tuples**: are for grouping different types together (i32, f64, i8)
+- **Arrays**: that are fixed size [u32; 3] is the type of [1, 2, 3]
+- **References**: like pointers but safer. &i32 is the type of &5
+- **Slices**: refer to parts of an array &[u8]
+- **char**: is a single Unicode Scalar Value, and uses single quotes '🦀'
+- **&str**: is an immutable UTF-8 string "this is a crab: 🦀"
+
 ## Structs
 
 ```rust
@@ -40,24 +52,6 @@ fn test(shape: Shape) {
 }
 ```
 
-### Enums With Data
-
-```rust
-enum Shape {
-    Circle(Point, f64),
-    Rectangle(Point, Point),
-}
-
-match shape {
-    Circle(center, radius) => {
-        draw_circle(center, radius)
-    }
-    Rectangle(ul, lr) => {
-        draw_rectangle(ul, lr)
-    }
-}
-```
-
 ## "&Pointers"
 
 ```rust
@@ -77,32 +71,3 @@ let mut a = 1;
 let b = &mut a; // ok
 let c = &mut a; // error!
 ```
-
-## Traits
-
-```rust
-trait Clone {
-    // borrows the receiver,
-    // returning the same type (Self)
-    fn clone(&self) -> Self;
-}
-
-impl Clone for Point {
-    fn clone(&self) -> Point {
-        Point { x: self.x, y: self.y }
-    }
-}
-```
-
-### Traits in Generics
-
-```rust
-fn clone_vector<T: Clone>(v: &Vec<T>) -> Vec<T> {
-    let mut other = Vec::new();
-    for element in v.iter() {
-        other.push(element.clone());
-    }
-    other
-}
-```
-
