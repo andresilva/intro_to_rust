@@ -2,7 +2,7 @@
 
 Control vs Safety spectrum:
 
-<!-- This monstrousity is a hack to get a gradient bar without uploading an image -->
+<!-- This monstrosity is a hack to get a gradient bar without uploading an image -->
 <span style="float: left;">C/C++</span>
 <span style="float: right; margin-right: 5px;">Python</span>
 <div style="clear: both;" />

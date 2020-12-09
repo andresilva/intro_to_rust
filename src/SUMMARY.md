@@ -2,7 +2,8 @@
 
 - [Background](./background.md)
     - [What is Rust?](./background/what_is_rust.md)
-    - [Why Rust?](./background/why_rust.md)
+    - [Why Rust? (I)](./background/why_rust1.md)
+    - [Why Rust? (II)](./background/why_rust2.md)
     - [Systems Programming Language](./background/systems_programming_language.md)
     - [Runs Blazingly Fast](./background/runs_blazingly_fast.md)
     - [Prevents Almost All Crashes](./background/prevents_almost_all_crashes.md)
