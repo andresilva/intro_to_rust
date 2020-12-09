@@ -32,8 +32,10 @@ fn get(s: &MyStruct) -> &i32 {
 fn main() {
     let s = MyStruct { inner: 3 };
     let inner = get(&s); // same lifetime as `s`
+    println!("inner: {}", inner);
 
     // essentially the same as
     let inner = &s.inner;
+    println!("inner: {}", inner);
 }
 ```

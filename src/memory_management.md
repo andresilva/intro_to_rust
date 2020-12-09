@@ -28,7 +28,9 @@ fn main() {
     work_with(data);                // transfer ownership of `data`
 }                                   // reference count of 0, memory deallocated
 
-fn work_with(data: Rc<i32>) {}
+fn work_with(data: Rc<i32>) {
+    println!("data: {}", data);
+}
 ```
 
 This allows multiple structs to *own* a reference to the same chunk of memory. This is useful for sharing a 'context' object between processors, for example &mdash; one processor may add information to the context which allows other processors to reason over it.

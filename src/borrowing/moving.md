@@ -10,6 +10,8 @@ fn main() {
     let b = &a;
 
     work_with(a); // error! borrowed by 'b'
+    
+    println!("b: {:?}", b);
 }
 ```
 
@@ -19,9 +21,12 @@ fn work_with(_slot: Vec<i32>) { /* ... */ }
 
 fn main() {
     let a = Vec::new();
+    
     {
-        let _b = &a;
+        let b = &a;
+        println!("b: {:?}", b)
     }
+    
     work_with(a); // ok
 }
 ```

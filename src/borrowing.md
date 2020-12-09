@@ -26,13 +26,17 @@ fn main() {
         let b = 3;
         a = &b; // error! `b` does not live long enough
     }
+    
+    println!("a: {}", a);
 }
 ```
 
 ```rust
 fn main() {
     let b = 3;
-    let _a: &i32;
-    _a = &b; // ok, `b` has the same lifetime as `a`
+    let a: &i32;
+    a = &b; // ok, `b` has the same lifetime as `a`
+    
+    println!("a: {}", a);
 }
 ```

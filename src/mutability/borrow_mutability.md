@@ -15,6 +15,8 @@ let mut a = Vec::new();
 {
     let b = &a; // freezes `a`
     a.push(1);  // error!
+    
+    println!("b: {:?}", b);
 }
 a.push(2); // ok
 ```
