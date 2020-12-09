@@ -38,6 +38,7 @@
 - [Breaking The Rules](./breaking_the_rules.md)
 - [Tooling](./tooling.md)
     - [Development](./tooling/development.md)
+    - [Compatibility](./tooling/compatibility.md)
 - [Pain Points](./pain_points.md)
 - [Conclusion](./conclusion.md)
   - [Long-term Viability](./conclusion/long_term_viability.md)
