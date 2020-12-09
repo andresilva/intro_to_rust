@@ -39,6 +39,7 @@
 - [Tooling](./tooling.md)
     - [Development](./tooling/development.md)
     - [Compatibility](./tooling/compatibility.md)
+- [Performance](./performance.md)
 - [Pain Points](./pain_points.md)
 - [Conclusion](./conclusion.md)
   - [Long-term Viability](./conclusion/long_term_viability.md)
