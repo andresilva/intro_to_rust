@@ -1,7 +1,7 @@
 # Compatibility
 
 Rust uses LLVM, normal calling conventions, no runtime, DWARF, so:
- - Works with all traditional tools.
+ - Works with all traditional tools
     - gdb/lldb works
     - valgrind works
     - LLVM sanitizers work

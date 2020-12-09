@@ -4,9 +4,9 @@
 
 ![](../img/servo.png)
 
-- Experimental browser engine with a focus on performance and concurrency;
+- Experimental browser engine with a focus on performance and concurrency
 - Developed to take advantage of the memory safety properties and concurrency
-  features of the Rust programming language.
+  features of the Rust programming language
 
 ## Firefox
 

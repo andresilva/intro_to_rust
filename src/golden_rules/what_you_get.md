@@ -2,7 +2,7 @@
 
 ## Iterator invalidation
 
-- Iterator invalidation due to mutating a collection you're iterating over;
+- Iterator invalidation due to mutating a collection you're iterating over
 - This pattern can be written in C, C++, Java, Python, Javascript...
   - But may result in, e.g, `ConcurrentModificationException` (at runtime!)
   
@@ -17,7 +17,7 @@ for v in &vs {
 
 ## Use-after-free
 
-- Valid in C/C++ and a common source of errors.
+- Valid in C/C++ and a common source of errors
 
 ```rust
 let y: &i32;
@@ -30,7 +30,7 @@ println!("{}", *y);
 
 ## Resource leak
 
-- Never forget to close a file or a socket ever again.
+- Never forget to close a file or a socket ever again
 
 ```rust
 use std::fs::File;

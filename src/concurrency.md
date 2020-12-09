@@ -2,11 +2,11 @@
 
 ## What is concurrency
 
-- One program with multiple threads of execution running at the same time.
-- Threads can share data without communication overhead.
-  - (networking, inter-process communication channels, etc).
-- Threads are more lightweight than individual processes.
-  - No large OS context switch when switching between threads.
+- One program with multiple threads of execution running at the same time
+- Threads can share data without communication overhead
+  - (networking, inter-process communication channels, etc)
+- Threads are more lightweight than individual processes
+  - No large OS context switch when switching between threads
 
 ## Why is concurrency hard
 
@@ -24,7 +24,7 @@
 - Sharing data: What if two threads try to write to the same piece of data at
   the same time?
 - Data races: The behavior of the same piece of code might change depending on
-  when exactly it executes.
+  when exactly it executes
 - Synchronization: How can I be sure all of my threads see the correct world
   view?
 - Deadlock: How can you safely share resources across threads and ensure threads

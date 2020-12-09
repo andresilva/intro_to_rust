@@ -3,7 +3,7 @@
 ## Primitives
 
 - **Booleans**: are true and false
-- **Integers**: are both signed and unsigned. u8/i8, u16/i16, u32/i32, u64/i64, and u128/i128.
+- **Integers**: are both signed and unsigned. u8/i8, u16/i16, u32/i32, u64/i64, and u128/i128
 - **Floating point numbers**: f32 and f64
 - **Tuples**: are for grouping different types together (i32, f64, i8)
 - **Arrays**: that are fixed size [u32; 3] is the type of [1, 2, 3]
