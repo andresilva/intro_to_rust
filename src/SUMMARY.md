@@ -23,6 +23,8 @@
 - [Mutability](./mutability.md)
     - [Borrow Mutability](./mutability/borrow_mutability.md)
     - [Owned Mutability](./mutability/owned_mutability.md)
+- [Golden Rules](./golden_rules.md)
+  - [What you get](./golden_rules/what_you_get.md)
 - [Concurrency](./concurrency.md)
     - [Communication](./concurrency/communication.md)
     - [Memory Safety](./concurrency/memory_safety.md)
