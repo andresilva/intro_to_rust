@@ -10,6 +10,8 @@
     - [Eliminates Data Races](./background/eliminates_data_races.md)
     - [Problem](./background/problem.md)
 - [Who's Using Rust](./whos_using_rust.md)
+    - [Mozilla](./whos_using_rust/mozilla.md)
+    - [Parity](./whos_using_rust/parity.md)
 - [Ownership](./ownership.md)
     - [Transferring Ownership](./ownership/transferring_ownership.md)
     - [Transitivity](./ownership/transitivity.md)
