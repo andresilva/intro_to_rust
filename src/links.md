@@ -1,6 +1,6 @@
 # Links
 
-* [github.com/rust-lang/rust](https://github.com/rust-lang/rust)
+* [Rust book](https://doc.rust-lang.org/book/)
 * [rust-lang.org](https://www.rust-lang.org)
+* [github.com/rust-lang/rust](https://github.com/rust-lang/rust)
 * [reddit.com/r/rust](https://reddit.com/r/rust)
-* [#rust IRC channel](http://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust)
