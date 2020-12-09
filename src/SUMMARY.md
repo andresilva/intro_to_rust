@@ -26,6 +26,7 @@
 - [Golden Rules](./golden_rules.md)
   - [What you get](./golden_rules/what_you_get.md)
 - [Concurrency](./concurrency.md)
+    - [Concurrency in Rust](./concurrency/concurrency_in_rust.md)
     - [Communication](./concurrency/communication.md)
     - [Memory Safety](./concurrency/memory_safety.md)
 - [Language Constructs](./language_constructs.md)
